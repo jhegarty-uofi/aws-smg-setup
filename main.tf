@@ -16,6 +16,7 @@ data "aws_iam_policy_document" "smgu_ro" {
       "ec2:DescribeImages",
       "ec2:AuthorizeSecurityGroupEgress",
       "ec2:AuthorizeSecurityGroupIngress",
+      "ec2:RevokeSecurityGroupIngress",
       "ec2:DescribeInstances",
       "ec2:DescribeInstanceStatus",
       "ec2:DescribeInstanceAttribute",
